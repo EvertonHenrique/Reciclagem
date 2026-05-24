@@ -1,6 +1,6 @@
 # Reciclagem
 <h1>Jogo Reciclagem em Java</h1>
-<h2>Criadores</h2>
+<h2>Criadores do Jogo</h2>
 <ul>
   <li>Evandro</li>
   <li>Everton</li>
