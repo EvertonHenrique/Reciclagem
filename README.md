@@ -2,4 +2,4 @@
 Jogo-Reciclagem
 [Reciclagem.zip] 
 
-<a href="../Reciclagem.zip">Arquivo do Jogo</a>
+<a href="Java/Reciclagem/Reciclagem.zip">Arquivo do Jogo</a>
