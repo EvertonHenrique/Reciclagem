@@ -1,3 +1,3 @@
 # Reciclagem
 Jogo-Reciclagem
-[Reciclagem.zip] <a href="Reciclagem.zip"></a>
+[Reciclagem.zip] <a href="Reciclagem/Reciclagem.zip"></a>
