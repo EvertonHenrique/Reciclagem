@@ -2,4 +2,7 @@
 Jogo-Reciclagem
 [Reciclagem.zip] 
 
-<a href="Java/Reciclagem/Reciclagem.zip">Arquivo do Jogo</a>
+<ul>
+  <li><a href="Reciclagem/Reciclagem.zip" download="Reciclagem.zip"
+type="application/zip">Baixar o Jogo Reciclagem</a></li>
+</ul>
