@@ -1,6 +1,6 @@
 # Reciclagem
 Jogo-Reciclagem
-[Reciclagem] (./Reciclagem.zip)
+[Reciclagem] (../Java/Reciclagem.zip)
 
 <ul>
   <li><a href="Reciclagem/Reciclagem.zip" download="Reciclagem.zip"
