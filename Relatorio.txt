@@ -1,0 +1,47 @@
+Relatório do jogo 
+
+ As pessoas precisa ter consciência de não joga lixo na rua e preservar nosso ambiente, Nossa importância de colocar cada item na lixeira correta.
+
+Os códigos do jogo 
+
+ Foram criadas as classes das lixeiras e dos itens para serem coletados, selecionadas as imagens em png, e posicionadas as imagens em x e y, horizontal e vertical de cada item, e foi criado o jogador(caminhão) e os carros, bicicletas, foram selecionadas as imagens, classes mover() para jogar e os tamanhos do personagens com getBounds(x,y).
+ Usar g.drawImage() para desenhar imagens.
+
+Jogo.java
+ 
+Na linha 10, Usou public class Jogo extends JPanel para herdar todas as classes, ImageIcon fundo, Para adicionar uma imagem de fundo em Java Swing. Musicas e efeitos sonoro
+
+Na linha 37, Random gerador = new Random(); cria uma instância da classe java.util.Random.
+
+Na linha 38, Timer gameLoop; atualizar a lógica e renderizar os gráficos continuamente. Em Java, para garantir que o jogo não rode rápido demais, gameloop é para jogo mobile.
+
+Na linha 40 criar public jogo (); para os construtores dos sons do jogo 
+
+Na linha 53 foi selecionada a imagem principal de fundo.
+addKeyListener(new KeyAdapter() é utilizado para monitorar eventos do teclado em componentes de interface gráfica, por causa desse método o jogo conseguiu funcionar  junto com  keyPressed(KeyEvent e) e parte  da interface, libera o movimento dos teclados, esse código é o mais importante do jogo.
+
+Na linha 92, Rectangle pRect = player.getBounds(); é usada para obter a área delimitadora (o retângulo de colisão) de um objeto player e armazená-la em uma nova variável chamada pRect. caso tiver um acidente do caminhão no jogo.
+
+Na linha 112, private void verificarEntrega(Rectangle pRect); É uma lógica pega que o item e leva na lixeira correta, caso o caminhão(Jogador) jogue na lixeira errada será game over.
+
+ Na linha 135, private void gerarNovoItem(); Instanciar os itens para um novo ciclo de jogo(reset) e nessa classe surgem itens aleatório no jogo.
+
+Na linha 154 private void finalizarJogo() É usado para finalizar o jogo, Foi usado html na janela de comemoração do jogo para ter uma interação melhor da interface.
+
+Na linha 177 foi criado as janelas da vitória, derrota usando html, UIManager.put no código aplica cor de fundo na janela de aviso.
+
+Na linha 226 private void inicializarObjetos(), inicia os movimentos do jogador(caminhão), bike, carro.
+
+Na linha 246 private ImageIcon carregarPacote(String caminho), Ajudar carregar as imagens que foram salva em png.
+
+Na linha 257 protected void paintComponent(Graphics g), Método é a base do ciclo de renderização gráfica bidimensional (2D) em aplicações Java que utilizam a biblioteca Swing, código executa a renderização sequencial de todos os elementos.
+
+Na linha 284 e g.setColor, Criar texto de aviso.
+
+Na linha 294 if (!chocado), Orientar o jogador sobre o descarte correto de cada resíduo coletado, aviso aparece na faixa branca.
+
+Na linha 310 if (chocado), Criar o codigo para exibir o resultado do jogo.
+
+Foi criada  Principal.java para programa e executar o jogo.
+
+Foi Criada MenuInicial.java para abrir uma tela inicial, há um botão para começar o jogo.
